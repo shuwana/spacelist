@@ -1,7 +1,11 @@
 const Controls = () => {
   return ( 
-    <div className="controller">
-      <div className="tracks t1"></div>
+    <div className="flex-container">
+      <div className="tracks track1">1</div>
+      <div className="tracks track2">2</div>
+      <div className="tracks track3">3</div>
+      <div className="tracks track4">4</div>
+      <div className="tracks track5">5</div>
     </div>
    );
 }

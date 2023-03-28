@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Controls/>
       <div className="content">
-        <h1>{ "SPACELIST" }</h1>
+        
       </div>
     </div>
   );
