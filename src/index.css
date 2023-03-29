@@ -1,15 +1,15 @@
 .flex-container{
    display: flex;
    justify-content: right;
-   background-color: dodgerblue;
 }
 .flex-container > div{
-  background-color: azure;
+  background-color: #000;
   width: 100px; 
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+  transition: 1s;
 }
 
 /* Changes only when mouse hovers over each track element*/
