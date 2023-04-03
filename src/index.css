@@ -4,9 +4,13 @@
 .flex-container{
    display: flex;
    justify-content: right;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+
 }
 .flex-container > div{
-  background-color: #000;
+  background-color: #FFF;
   width: 100px; 
   margin: 10px;
   text-align: center;
