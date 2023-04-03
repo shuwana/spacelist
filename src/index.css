@@ -1,3 +1,6 @@
+*{
+  background-color: #0D0618;
+}
 .flex-container{
    display: flex;
    justify-content: right;
