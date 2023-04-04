@@ -1,27 +1,21 @@
-*{
-  background-color: #0D0618;
+body{
+  background-color: #ffd;
 }
+
+h2{
+  line-height: 0;
+}
+
 .flex-container{
-   display: flex;
-   justify-content: right;
-   position: absolute;
-   bottom: 0;
-   right: 0;
-
+  display: flex;
+  background-color: dodgerblue;
+  
 }
+
 .flex-container > div{
-  background-color: #FFF;
-  width: 100px; 
+  background-color: #f1f1f1;
   margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  transition: 1s;
+  padding: 10px;
 }
-
 /* Changes only when mouse hovers over each track element*/
-.tracks:hover{
-  background-color: blue;
-  width: 40vw;
-}
 
