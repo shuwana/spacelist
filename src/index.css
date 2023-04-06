@@ -16,5 +16,9 @@ h2{
   margin: 10px;
   padding: 10px;
 }
-/* Changes only when mouse hovers over each track element*/
 
+/* Changes only when mouse hovers over each track element*/
+.track-preview:hover{
+  background-color: bisque;
+  width: 10vw;
+}
