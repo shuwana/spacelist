@@ -14,11 +14,12 @@ h2{
 .flex-container > div{
   background-color: #f1f1f1;
   margin: 10px;
-  padding: 10px;
+  transition-duration: 1s;
+  
 }
 
 /* Changes only when mouse hovers over each track element*/
 .track-preview:hover{
-  background-color: bisque;
-  width: 10vw;
+  width: 50vw;
+  transition: 1s;
 }
